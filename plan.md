@@ -4,7 +4,7 @@
 - Create Django App
 - Update django settings 
 - Create custom Python image using the Official Python3.8 Image
-- Create working directory and make it thw present working directory
+- Create working directory and make it the present working directory
 - Copy Django project to container
 - Install project dependencies inside the container
 - Create docker compose file that create four services (nginx, django, postgres, and swagger api documentation)
