@@ -17,4 +17,4 @@ class StudentSerializer(serializers.ModelSerializer):
 
         """"""
         model = Student
-        fields = ["id", "firstname", "lastname", "school"]
+        fields = ["id", "firstname", "lastname", "school", "student_id"]

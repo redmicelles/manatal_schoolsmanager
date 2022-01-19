@@ -1,4 +1,5 @@
 from tkinter import CASCADE
+from uuid import uuid4
 from django.db import models
 from django.core.validators import MinValueValidator
 
@@ -27,6 +28,7 @@ class Student(models.Model):
     firstname = models.CharField(max_length=20, null=False, verbose_name="First Name")
     lastname = models.CharField(max_length=20, verbose_name="Last Name")
     school = models.ForeignKey(School, on_delete=models.CASCADE)
+    student_id = models.CharField(max_length=20, null=True)
 
     class Meta:
 
