@@ -60,6 +60,9 @@ This third step focuses on **Django Nested Routers**.
 # Deployed Instance
 An instance of the deployed is available at:
 http://ec2-34-219-90-153.us-west-2.compute.amazonaws.com/schools
+
 http://ec2-34-219-90-153.us-west-2.compute.amazonaws.com/students
+
+all nested endpoints as described in the task are available also in the live deployment.
 
 
