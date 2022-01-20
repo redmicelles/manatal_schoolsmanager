@@ -56,3 +56,10 @@ This third step focuses on **Django Nested Routers**.
 3. The env_file directory contains the enviroments file that hold the environment variables for PostgreSQL and Django.
 4. The same endpoints as described in the task above have be preserved for the api.
 5. PostgreSQL 12 and above is recommended for this project.
+
+# Deployed Instance
+An instance of the deployed is available at:
+http://ec2-34-219-90-153.us-west-2.compute.amazonaws.com/schools
+http://ec2-34-219-90-153.us-west-2.compute.amazonaws.com/students
+
+
