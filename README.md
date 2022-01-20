@@ -1,6 +1,6 @@
 # manatal_schoolsmanager
 
-#TASK
+## TASK
 ## Step 1
 
 The first step focuses on Django setup and models.
@@ -49,3 +49,10 @@ This third step focuses on **Django Nested Routers**.
 ### References:
 
 - drf-nested-routers: [https://github.com/alanjds/drf-nested-routers](https://github.com/alanjds/drf-nested-routers)
+
+# DETAILS
+1. All python dependencies for this project can be found in the dependencies directory.
+2. Test has write for all models using pytest.
+3. The env_file directory contains the enviroments file that hold the environment variables for PostgreSQL and Django.
+4. The same endpoints as described in the task above have be preserved for the api.
+5. PostgreSQL 12 and above is recommended for this project.
