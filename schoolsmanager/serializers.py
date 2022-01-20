@@ -3,18 +3,17 @@ from .models import School, Student
 
 class SchoolSerializer(serializers.ModelSerializer):
     
-    """"""
+    """This class serializes the School Model"""
     class Meta:
 
-        """"""
         model = School
-        fields = ["id", "schoolname", "maxstudents"]
+        fields = "__all__"
 
 class StudentSerializer(serializers.ModelSerializer):
     
-    """"""
+    """This class serializes the Student Model"""
     class Meta:
 
         """"""
         model = Student
-        fields = ["id", "firstname", "lastname", "school", "student_id"]
+        fields = "__all__"

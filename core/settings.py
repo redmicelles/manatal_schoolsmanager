@@ -33,9 +33,9 @@ for file in os.listdir(os.path.join(BASE_DIR, 'env_files')):
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'schoolsmanager',
+    'schoolsmanager.apps.SchoolsmanagerConfig',
 ]
 
 MIDDLEWARE = [
